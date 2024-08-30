@@ -1,0 +1,134 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+    border: 0;
+  }
+  
+  
+  h1 {
+    margin-bottom: 20px;
+  }
+  
+  
+  .tabela-periodica { 
+    border-collapse: collapse;
+    /* width: 100%; */
+    max-width: 1000000px;
+  }
+  
+  
+  .tabela-periodica td {
+    width: 60px;
+    height: 80px;
+    border: 1px solid #ccc;
+    text-align: center;
+    vertical-align: middle;
+    padding: 5px;
+    position: relative;
+    border: none;
+  }
+
+  
+  
+  .elemento {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  
+  .numero {
+    font-size: 0.8em;
+    color: #666;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+  }
+  
+  
+  .simbolo {
+    font-size: 1.5em;
+    font-weight: bold;
+  }
+  
+  
+  .nome {
+    font-size: 0.8em;
+    color: #333;
+    margin-top: 5px;
+  }
+  
+  
+  /* Estilos específicos para os elementos */
+  .h {
+    background-color: rgb(61, 204, 61);
+  }
+  .he {
+    background-color: rgb(77, 135, 241);
+  }
+  .li {
+    background-color: #dfab00;
+  }
+  .be {
+    background-color: #ffd700;
+  }
+  .b , .Si , .Ge , .As , .Sb , .Te , .Po  {
+    background-color: turquoise;
+  }
+  .c {
+    background-color: rgb(61, 204, 61);
+  }
+  .n {
+    background-color: rgb(61, 204, 61);
+  }
+  .o {
+    background-color: rgb(61, 204, 61);
+  }
+  .f , .Br , .I , .At , .Ts {
+    background-color: cyan;
+    
+  }
+  .ne {
+    background-color: rgb(77, 135, 241);
+  }
+  .Na{
+    background-color: #dfab00;
+  }
+  .Mg{
+    background-color: #ffd700;
+  }
+  .Al , .Ga , .In , .Tl , .Nh , .Sn , .Pb , .Fl , .Mc , .Bi , .Lv {
+    background-color: aquamarine;
+  }
+  .Si{
+    background-color: turquoise;
+  }
+  .P , .Se{
+    background-color: rgb(61, 204, 61);
+  }
+  .S{
+    background-color: rgb(61, 204, 61);
+  }
+  .Cl{
+    background-color: cyan;
+  }
+  .Ar , .Kr , .Xe , .Rn , .Og{
+    background-color: rgb(77, 135, 241);
+  }
+  .K , .Rb , .Cs , .Fr{
+    background-color: #dfab00;
+  }
+  .Ca , .Sr , .Ba , .Ra{
+    background-color: #ffd700;
+  }
+  .Sc, .Ti , .V , .Cr , .Mn , .Fe , .Co , .Ni , .Cu , .Zn , .Y , .Zr , .Nb , .Mo , .Tc , .Ru , .Rh , .Pd , .Ag , .Cd , .Hf , .Ta , .W , .Re , .Os , .Ir , .Pt , .Au , .Hg , .Rf , .Db , .Sg , .Bh , .Hs , .Mt , .Ds , .Rg , .Cn  {
+    background-color: lightcoral;
+  }
+  
+
+  
